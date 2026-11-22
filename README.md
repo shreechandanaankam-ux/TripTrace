@@ -131,7 +131,7 @@ Traveler → Explore Templates → Select Trip → Customize Activities → Gene
 
 ## 📸 Project Screenshots
 
-Add your actual project screenshots inside a folder named `screenshots` in your GitHub repository.
+Add your actual project screenshots inside a folder named `screenshorts` in your GitHub repository.
 
 Once uploaded, use the following image paths:
 
