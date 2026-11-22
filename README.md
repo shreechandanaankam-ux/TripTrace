@@ -136,27 +136,27 @@ Add your actual project screenshots inside a folder named `screenshots` in your 
 Once uploaded, use the following image paths:
 
 ###  Login Page
-![TripTrace Login Page](screenshots/login-page.png.png)
+![TripTrace Login Page](screenshorts/login-page.png.png)
 
 ###  Mentor Side – Template Creation
-![Mentor Template Creation](screenshots/mentor-template.png.png)
+![Mentor Template Creation](screenshorts/mentor-template.png.png)
 
 ###  Mentor Dashboard
-![Mentor Dashboard](screenshots/mentor-dashboard.png.png)
+![Mentor Dashboard](screenshorts/mentor-dashboard.png.png)
 
 ###  Traveler Home Page
-![Traveler Home Page](screenshots/traveler-home.png.png)
+![Traveler Home Page](screenshorts/traveler-home.png.png)
 
 
 
 ### Q&A Page
-![Q&A Page](screenshots/qa-page.png.png)
+![Q&A Page](screenshorts/qa-page.png.png)
 
 ###  Feedback Page
-![Feedback Page](screenshots/feedback-page.png.png)
+![Feedback Page](screenshorts/feedback-page.png.png)
 
 ###  Traveler Trip Planner
-![Traveler Trip Planner](screenshots/trip-planner.png.png)
+![Traveler Trip Planner](screenshorts/trip-planner.png.png)
 
 ---
 
