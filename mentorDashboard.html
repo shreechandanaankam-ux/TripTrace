@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TripTrace Mentor Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-earth-asia"></i>
+TripTrace
+</div>
+
+<ul>
+
+<li><a href="mentorDashboard.html">Dashboard</a></li>
+
+<li><a href="mentor.html">Create Trip</a></li>
+
+<li><a href="feedback.html">Feedback</a></li>
+
+<li><a href="map.html">Maps</a></li>
+
+<li><a href="index.html">Logout</a></li>
+
+</ul>
+
+</nav>
+
+<section class="dashboard-header">
+
+<h1>Welcome Mentor 👋</h1>
+
+<p>Create beautiful travel itineraries for thousands of travellers.</p>
+
+<a href="mentor.html" class="create-btn">
+<i class="fa-solid fa-plus"></i>
+Create New Trip
+</a>
+
+</section>
+
+<section class="stats">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-route"></i>
+
+<h2 id="tripCount">0</h2>
+
+<p>Total Trips</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fa-solid fa-users"></i>
+
+<h2>128</h2>
+
+<p>Travellers</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fa-solid fa-heart"></i>
+
+<h2>346</h2>
+
+<p>Bookmarks</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fa-solid fa-star"></i>
+
+<h2>4.9</h2>
+
+<p>Rating</p>
+
+</div>
+
+</section>
+
+<section class="trip-section">
+
+<h2>Your Travel Templates</h2>
+
+<div id="tripList"></div>
+
+</section>
+
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>

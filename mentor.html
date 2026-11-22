@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Create Trip | TripTrace</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-earth-asia"></i>
+
+TripTrace
+
+</div>
+
+<ul>
+
+<li><a href="mentorDashboard.html">Dashboard</a></li>
+
+<li><a href="traveller.html">Traveller</a></li>
+
+<li><a href="feedback.html">Feedback</a></li>
+
+<li><a href="index.html">Logout</a></li>
+
+</ul>
+
+</nav>
+
+<section class="form-hero">
+
+<h1>Create Your Travel Package</h1>
+
+<p>Create attractive travel itineraries for travellers.</p>
+
+</section>
+
+<div class="trip-form">
+
+<form id="tripForm">
+
+<div class="grid">
+
+<div>
+
+<label>Trip Name</label>
+
+<input
+type="text"
+id="tripName"
+placeholder="Goa Beach Escape">
+
+</div>
+
+<div>
+
+<label>Destination</label>
+
+<input
+type="text"
+id="destination"
+placeholder="Goa">
+
+</div>
+
+<div>
+
+<label>Cover Image URL</label>
+
+<input
+type="text"
+id="image"
+placeholder="Paste Image URL"
+onkeyup="previewImage()">
+
+<div class="image-preview">
+
+<img
+id="preview"
+src="https://via.placeholder.com/500x300?text=Trip+Cover+Image"
+alt="Trip Preview">
+
+</div>
+
+<div>
+
+<label>Starting City</label>
+
+<input
+type="text"
+id="startingCity"
+placeholder="Hyderabad">
+
+</div>
+
+<div>
+
+<label>Duration (Days)</label>
+
+<input
+type="number"
+id="days">
+
+</div>
+
+<div>
+
+<label>Total Budget (₹)</label>
+
+<input
+type="number"
+id="budget">
+
+</div>
+
+<div>
+
+<label>Maximum Group Size</label>
+
+<input
+type="number"
+id="group">
+
+</div>
+
+<div>
+
+<label>Best Season</label>
+
+<select id="season">
+
+<option>Summer</option>
+
+<option>Winter</option>
+
+<option>Monsoon</option>
+
+<option>Spring</option>
+
+<option>All Season</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Transport</label>
+
+<select id="transport">
+
+<option>Flight</option>
+
+<option>Train</option>
+
+<option>Bus</option>
+
+<option>Car</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Accommodation</label>
+
+<select id="hotel">
+
+<option>Hotel</option>
+
+<option>Resort</option>
+
+<option>Camping</option>
+
+<option>Villa</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Difficulty</label>
+
+<select id="difficulty">
+
+<option>Easy</option>
+
+<option>Moderate</option>
+
+<option>Adventure</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Rating</label>
+
+<select id="rating">
+
+<option>⭐⭐⭐⭐⭐</option>
+
+<option>⭐⭐⭐⭐</option>
+
+<option>⭐⭐⭐</option>
+
+</select>
+
+</div>
+
+</div>
+
+<!-- ===================== -->
+<!-- Dynamic Itinerary -->
+<!-- ===================== -->
+
+<!-- Travel Itinerary -->
+
+<h2>Travel Itinerary</h2>
+
+<div id="itineraryContainer">
+
+</div>
+
+<div class="itinerary-buttons">
+
+<button
+type="button"
+class="add-day-btn"
+onclick="addDay()">
+
+<i class="fa-solid fa-plus"></i>
+
+Add Day
+
+</button>
+
+</div>
+
+<!-- Description -->
+
+<label>Description</label>
+
+<textarea
+id="description"
+rows="5"
+placeholder="Describe your travel package...">
+</textarea>
+
+<!-- Buttons -->
+
+<div class="buttons">
+
+<button
+type="button"
+class="save-btn"
+onclick="saveTrip()">
+
+<i class="fa-solid fa-floppy-disk"></i>
+
+Save Trip
+
+</button>
+
+<button
+type="reset"
+class="reset-btn">
+
+Reset
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+<script src="mentor.js"></script>
+
+</body>
+
+</html>
